@@ -11,6 +11,8 @@ For building and running the application you need:
 
 ## Project Dependencies
 - [Spring-Boot 2.7.1]
+- [Spring-Data-Jpa]
+- [Junit4]
 
 ## Running the application locally
 There are several ways to run a CustomerRewardsSystem application on your local machine. One way is to execute the `main` method in the `com.rewards.customerRewardsSystem.CustomerRewardsSystemApplication` class from your IDE.
