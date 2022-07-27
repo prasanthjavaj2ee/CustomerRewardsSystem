@@ -1,6 +1,6 @@
-package com.rewards.customerRewardsSystem.entyties;
+package com.rewards.customerrewardsystem.entyties;
 
-import lombok.*;
+import lombok.Data;
 
 import javax.persistence.*;
 import java.io.Serializable;

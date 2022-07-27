@@ -1,4 +1,4 @@
-package com.rewards.customerRewardsSystem;
+package com.rewards.customerrewardsystem;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;

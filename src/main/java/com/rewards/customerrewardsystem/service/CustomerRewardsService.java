@@ -1,10 +1,10 @@
-package com.rewards.customerRewardsSystem.service;
+package com.rewards.customerrewardsystem.service;
 
-import com.rewards.customerRewardsSystem.entyties.CustomerTransaction;
-import com.rewards.customerRewardsSystem.exceptions.NoCustomerFoundException;
-import com.rewards.customerRewardsSystem.exceptions.NoRewardsFoundException;
-import com.rewards.customerRewardsSystem.lamdautils.CusRewardsUtil;
-import com.rewards.customerRewardsSystem.repository.CustomerTransactionRepository;
+import com.rewards.customerrewardsystem.entyties.CustomerTransaction;
+import com.rewards.customerrewardsystem.exceptions.NoCustomerFoundException;
+import com.rewards.customerrewardsystem.exceptions.NoRewardsFoundException;
+import com.rewards.customerrewardsystem.lamdautils.CusRewardsUtil;
+import com.rewards.customerrewardsystem.repository.CustomerTransactionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -36,7 +36,7 @@ public class CustomerRewardsService {
             Map<String, List<CustomerTransaction>> collect = CusRewardsUtil.getTxnGroupByMonth(allByCustomerId.stream());
             /**
              * Calculate the rewards By month
-             * CusRewardsUtil contains Lamda Expression
+             * CusRewardsUtil contains Lambda Expression
              */
             Map<String, Double> totalRewardsByMonth = collect.entrySet().stream()
                     .collect(Collectors

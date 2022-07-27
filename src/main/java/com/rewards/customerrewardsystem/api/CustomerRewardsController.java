@@ -1,8 +1,8 @@
-package com.rewards.customerRewardsSystem.api;
+package com.rewards.customerrewardsystem.api;
 
-import com.rewards.customerRewardsSystem.exceptions.NoCustomerFoundException;
-import com.rewards.customerRewardsSystem.exceptions.NoRewardsFoundException;
-import com.rewards.customerRewardsSystem.service.CustomerRewardsService;
+import com.rewards.customerrewardsystem.exceptions.NoCustomerFoundException;
+import com.rewards.customerrewardsystem.exceptions.NoRewardsFoundException;
+import com.rewards.customerrewardsystem.service.CustomerRewardsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

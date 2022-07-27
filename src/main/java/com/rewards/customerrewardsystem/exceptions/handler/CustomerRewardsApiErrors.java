@@ -1,4 +1,4 @@
-package com.rewards.customerRewardsSystem.exceptions.handler;
+package com.rewards.customerrewardsystem.exceptions.handler;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;

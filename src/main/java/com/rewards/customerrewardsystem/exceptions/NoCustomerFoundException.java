@@ -1,4 +1,4 @@
-package com.rewards.customerRewardsSystem.exceptions;
+package com.rewards.customerrewardsystem.exceptions;
 
 public class NoCustomerFoundException extends Exception{
     public NoCustomerFoundException(){

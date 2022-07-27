@@ -1,6 +1,6 @@
-package com.rewards.customerRewardsSystem.lamdautils;
+package com.rewards.customerrewardsystem.lamdautils;
 
-import com.rewards.customerRewardsSystem.entyties.CustomerTransaction;
+import com.rewards.customerrewardsystem.entyties.CustomerTransaction;
 
 import java.time.Month;
 import java.util.List;
